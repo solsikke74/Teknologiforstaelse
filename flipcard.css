@@ -163,5 +163,8 @@ nav ul li a:hover {
 
   .special-link{
     color:#38598b;
-    
+
   }
+  #imgdropshadow {
+  filter: drop-shadow(10px 10px 7px lightblue);
+}
