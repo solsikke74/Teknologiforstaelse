@@ -160,3 +160,8 @@ nav ul li a:hover {
 [class*="col-"] {
     width: 100%;
   }
+
+  .special-link{
+    color:#38598b;
+    
+  }
