@@ -166,5 +166,5 @@ nav ul li a:hover {
 
   }
   #imgdropshadow {
-  filter: drop-shadow(10px 10px 7px lightblue);
+  filter: drop-shadow(10px 10px 7px #38598b);
 }
