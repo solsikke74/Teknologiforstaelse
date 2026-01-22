@@ -165,11 +165,9 @@ nav ul li a:hover {
     color:#38598b;
 
   }
+  
   #imgdropshadow {
   filter: drop-shadow(10px 10px 7px #38598b);
-  float: left;
-  clip-path: ellipse(70% 80%);
-  shape-outside: ellipse(65% 70%);
 }
 
 
