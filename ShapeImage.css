@@ -88,6 +88,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e7eaf6;
+    color: #38598b;
 }
 
 header {
@@ -168,12 +169,13 @@ nav ul li a:hover {
   #imgdropshadow {
   filter: drop-shadow(10px 10px 7px #38598b);
    float: left;
-  clip-path: ellipse(50% 60%);
-  shape-outside: ellipse(50% 55%);
+   clip-path: circle(45%);
+  shape-outside: circle(50%);
 }
 
 .Imgrounded{
-  border: 1px solid green;
   padding: 10px;
   display: flow-root;  /* ← Fanger floaten og gjør at beholderen får høyde */
 }
+clip-path: ellipse(40% 50%);
+  shape-outside: ellipse(45% 55%);
