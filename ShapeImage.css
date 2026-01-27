@@ -161,13 +161,19 @@ nav ul li a:hover {
     width: 100%;
   }
 
-  .special-link{
+.special-link{
     color:#38598b;
-
   }
-  
+
   #imgdropshadow {
   filter: drop-shadow(10px 10px 7px #38598b);
+   float: left;
+  clip-path: ellipse(50% 60%);
+  shape-outside: ellipse(50% 55%);
 }
 
-
+.Imgrounded{
+  border: 1px solid green;
+  padding: 10px;
+  display: flow-root;  /* ← Fanger floaten og gjør at beholderen får høyde */
+}
