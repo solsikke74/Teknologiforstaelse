@@ -112,6 +112,10 @@ a {
     color: #e7eaf6;
   }
 
+p.a{
+    text-align: right;
+}
+
 nav {
     display: flex;
     align-items: center;
